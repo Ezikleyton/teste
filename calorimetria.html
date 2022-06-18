@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calorimetria</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="testes.css">
+        
+        
+
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <img src="logo.png">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="testes.html">Testes</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>        
+                </nav>
+            </div>    
+        </header>
+        <main>
+            <form>
+                <p class="">Sexo</p>
+                <label for="radio-feminino"><input type="radio" name="sexo" value="Feminino" id="radio-feminino" required>Feminino</label>
+                
+                
+                <label for="radio-masculino" ><input type="radio" name="sexo" value="Masculino" id="radio-masculino" required>Masculino</label>
+                
+                
+                <label for="estatura">Estatura (Cm)</label>
+                <input type="number" id="estatura" class="ipunt-padrao" required placeholder="Ex: 173" size="3" maxlength="3">
+                <label for="massacorporal">Massa corporal (Kg)</label>
+                <input type="number" id="massacorporal" class="ipunt-padrao"required placeholder="Ex: 82,5">
+                <label for="idade">Idade em anos</label>
+                <input type="number" id="idade" class="ipunt-padrao"required placeholder="18">
+                
+                <input type="submit" value="Calcular" class="calculo-padrao">
+
+            
+            </form>
+        </main>
+        <footer>
+            <img>
+            <p class="corpyright">&copy; Corpyright Ezikleyton Personal 2022</p>
+        </footer>
+    </body>
+</html>
